@@ -1,0 +1,36 @@
+aula 3
+list e objetos
+ 
+ 
+Sempre que for preciso modificar objetos de uma lista, usar-se o exemplo [1:2]
+ exemplo  inserir objetos em uma lista 
+ função insert()
+ função append()
+ 
+variavel.insert(indice, objeto)
+variavel.append(objeto)
+
+Dadas duas listas, x e y, a sintaxe para unir a segunda lista a primeira e
+ exemplo: x.extend(y)
+ indicando que os objetos de y serao todos adicionados ao finla da lista x
+ 
+ Python disponibiliza varias maneiras para se remover objetos de uma lista
+ Para remover objetos da lista podemos escolher entre
+ .função remove():
+ .função pop():
+ .palavra reservada de; e
+ .função clear();
+ OBS: ORDEM CRESCENTE=DIREITA
+ ORDEM DECRESCENTE=INVERSA
+ 
+ .A função sort (), para ordenção 
+ .A função reverse(), para inverter uma lista, como se fosse um espelhamento dela
+ 
+ As funções copy() e list() inserem todos os objetos de uma lista dentro de uma novva lista criada, mas com sintaxes diferentes
+ 
+exemplo: novalista=listaexistente.copy()
+novalista=list(listaexistente)
+
+exemplo:variavel.count(objeto)
+range.(inicio, fim, passo)
+
